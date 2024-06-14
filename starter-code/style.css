@@ -95,18 +95,17 @@ body {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
-        gap: 5%;
+        gap: 2%;
     }
 
     .uno {
-        border:solid 1px black;
-        width: 80%;
+        width: 75%;
         background-color: white;
     }
 
     .dos {
-        border:solid 1px black;
-        width: 20%;
+        width: 25%;
+        background-color: white;
     }
 
     .ptw {
@@ -115,14 +114,14 @@ body {
         margin-right: 4%;
         justify-content: space-between;
         align-items: center;
-        border-bottom: solid 1px gray;
     }
 
     .card {
         margin-left: 2%;
         margin-right: 2%;
-        border-bottom: solid 1px gray;
-        display: flex;
+        border-top: solid 1px gray;
+        display: grid;
+        grid-template-columns: 20% 60% 20% ;
         align-items: center;
         padding: 15px;
     }
@@ -133,31 +132,127 @@ body {
         justify-content: space-between;
     }
 
-    .card img {
-        margin-right: 20px;
+    .card .img {
+        width: 80%;
     }
 
     .card h1 {
-        grid-area: h1;
+        height: 1px;
     }
 
-    .card p {
-        grid-area: p;
+    .subt {
+        margin-top: 0px;
     }
 
-    .ºbutton1 {
-        border: none;
-        width: 15%;
+    .buttons {
+        display: flex;
+        gap: 2%;
+        height: 30px;
+        text-align: center;
+        padding: 1px;
     }
 
+    .buttons i {
+        background-color: goldenrod;
+    }
+
+    .buttons p {
+        align-self: center;
+        font-size: 15px;
+        color: gainsboro;
+    }
+
+    .button1 {
+        width: 20%;
+        border: solid 1px gray;
+        text-align: center;
+    }
+
+    .button1 img {
+        width: 20%;
+        margin: 0px;
+        margin-top: 2px;
+    }
     
     .button2 {
-        border: none;
-        width: 15%;
+        width: 18%;
+        border: solid 1px gray;
+        text-align: center;
+    }
+
+    .button2 img {
+        width: 22%;
+        margin: 0px;
+        margin-top: 2px;
+    }
+
+    .info {
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        width: 98%;
+        height: 107px;
+        font-size: 13px;
+        gap: 1%;
+    }
+
+    .info p {
+        margin-bottom: 0px;
+        margin-right: 5px;
     }
 
     .soft {
-        grid-area: soft;
+        border: solid 1px black;
+        background-color: gainsboro;
+    }
+
+    .footer {
+        text-align: center;
+        color: gray;
+        font-size: 15px;
+    }
+
+    .today {
+        margin-top: 20px;
+    }
+
+    .espacio {
+        background-color: gainsboro;
+        height: 30px;
+    }
+
+    .slack {
+        width: 95%;
+        height: 210px;
+    }
+
+    .titleslack {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contslack {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contslack p {
+        width: 90%;
+    }
+
+    .contslack button {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
     }
 }
 
